@@ -1,0 +1,15 @@
+; Square pylon Fluent simulatio
+; 30/10/2014
+;--------------------------------------
+file/read-case square-pylon.cas.gz
+;--------------------------------------
+; Start simulation and run for 500 iterations
+;--------------------------------------
+it 500
+;--------------------------------------
+; Write data file, overwriting the existing one with the same name
+;--------------------------------------
+file/write-data square-pylon.dat.gz
+yes
+;--------------------------------------
+exit yes
